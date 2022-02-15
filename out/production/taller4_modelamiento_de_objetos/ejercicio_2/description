@@ -1,0 +1,9 @@
+
+¿Es posible ejecutar un programa en java que contenga varias clases con métodos main?
+En caso positivo, ¿cómo se determina el punto de entrada a un programa?
+
+    Se puede decir que Java puede tener múltiples métodos principales pero con
+    el concepto de sobrecarga. Debe haber solo un método principal con el parámetro: string[] args.
+
+    Tomado de: https://www.geeksforgeeks.org/can-we-have-multiple-main-methods-in-java/
+
