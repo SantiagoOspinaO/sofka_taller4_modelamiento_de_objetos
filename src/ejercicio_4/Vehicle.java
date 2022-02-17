@@ -13,24 +13,23 @@ public class Vehicle {
 
     private int numberPassengers;
     private String hasCrew;
-    private int numberWheels;
+    private int numberTires = 4;
     private String dateEnrollment;
-    private String mediumWhereUsed;
-
+    private String mediumWhereUsed = "Tierra";
 
     /**
      * Instantiates a new Vehicle.
      *
      * @param numberPassengers the number passengers
      * @param hasCrew          the has crew
-     * @param numberWheels     the number wheels
+     * @param numberTires     the number wheels
      * @param dateEnrollment   the date enrollment
      * @param mediumWhereUsed  the medium where used
      */
-    public Vehicle(int numberPassengers, String hasCrew, int numberWheels, String dateEnrollment, String mediumWhereUsed) {
-        this.numberPassengers = numberPassengers;
+    public Vehicle(String hasCrew, int numberPassengers, int numberTires, String dateEnrollment, String mediumWhereUsed) {
         this.hasCrew = hasCrew;
-        this.numberWheels = numberWheels;
+        this.numberPassengers = numberPassengers;
+        this.numberTires = numberTires;
         this.dateEnrollment = dateEnrollment;
         this.mediumWhereUsed = mediumWhereUsed;
     }
@@ -48,9 +47,9 @@ public class Vehicle {
      */
     @Override
     public String toString() {
-        return "Vehicle { " + "Numero de pasajeros: " + getNumberPassengers() +
-                ", hay tripulacion: " + getHasCrew() +
-                ", numero de ruedas: " + getNumberWheels() +
+        return "Vehicle { " + "Hay tripulacion: " + getHasCrew() +
+                ", numero de pasajeros: " + getNumberPassengers() +
+                ", numero de llantas: " + getNumberTires() +
                 ", fecha de la matricula: " + getDateEnrollment() +
                 ", medio por el que se desplaza: " + getMediumWhereUsed() + "}";
     }
@@ -97,17 +96,8 @@ public class Vehicle {
      *
      * @return the number wheels
      */
-    public int getNumberWheels() {
-        return numberWheels;
-    }
-
-    /**
-     * Se crea el metodo Set del atributo number wheels.
-     *
-     * @param numberWheels the number wheels
-     */
-    public void setNumberWheels(int numberWheels) {
-        this.numberWheels = numberWheels;
+    public int getNumberTires() {
+        return numberTires;
     }
 
     /**
@@ -135,14 +125,5 @@ public class Vehicle {
      */
     public String getMediumWhereUsed() {
         return mediumWhereUsed;
-    }
-
-    /**
-     * Se crea el metodo Set del atributo medium where used.
-     *
-     * @param mediumWhereUsed the medium where used
-     */
-    public void setMediumWhereUsed(String mediumWhereUsed) {
-        this.mediumWhereUsed = mediumWhereUsed;
     }
 }
