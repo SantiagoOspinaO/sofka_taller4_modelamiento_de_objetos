@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37966963-75c3-44eb-8b69-1fc3e2693240" name="Changes" comment="Se completa el ejercicio_4" />
+    <list default="true" id="37966963-75c3-44eb-8b69-1fc3e2693240" name="Changes" comment="Se actualiza el ejercicio 4.">
+      <change afterPath="$PROJECT_DIR$/src/ejercicio_5/ui/UIMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_1/CelestialObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_1/CelestialObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_1/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_1/Planet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_3/RandomNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_3/RandomNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_4/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_4/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_4/VehicleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_6/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_6/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/taller4_modelamiento_de_objetos/ejercicio_6/Programa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio_4/CreateVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio_4/CreateVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio_4/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio_4/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio_5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio_5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejercicio_6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicio_6/Program.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../taller2_diseñoyprogramacion" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -46,13 +64,26 @@
       <recent name="ejercicio_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio_1.Main" />
       <module name="taller4_modelamiento_de_objetos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ejercicio_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio_6.Main" />
+      <module name="taller4_modelamiento_de_objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +131,32 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio_4.Main" />
+      <module name="taller4_modelamiento_de_objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejercicio_5.Main" />
+      <module name="taller4_modelamiento_de_objetos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ejercicio_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejercicio_6.Main" />
       <module name="taller4_modelamiento_de_objetos" />
       <extension name="coverage">
@@ -128,6 +185,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
@@ -171,7 +229,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644907927386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se completa el ejercicio_6">
+      <created>1644934464341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644934464341</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se actualizan los ejercicios.">
+      <created>1644934568141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644934568141</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Se actualiza el ejercicio 4.">
+      <created>1645121994927</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645121994927</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +269,9 @@
     <MESSAGE value="Se completa el ejercicio_2" />
     <MESSAGE value="Se completa el ejercicio_3" />
     <MESSAGE value="Se completa el ejercicio_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se completa el ejercicio_4" />
+    <MESSAGE value="Se completa el ejercicio_6" />
+    <MESSAGE value="Se actualizan los ejercicios." />
+    <MESSAGE value="Se actualiza el ejercicio 4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se actualiza el ejercicio 4." />
   </component>
 </project>

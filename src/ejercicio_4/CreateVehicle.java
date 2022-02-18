@@ -19,7 +19,7 @@ public class CreateVehicle extends Vehicle {
      */
     public static ArrayList<Vehicle> listVehicles = new ArrayList<>();
 
-    static Vehicle vehicle = new Vehicle();
+
 
     /**
      * Se crea el constructor por defecto.
@@ -31,11 +31,13 @@ public class CreateVehicle extends Vehicle {
      * Se crea el metodo createVehicles con el objetivo de pedir por consola los atributos de la clase vehiculo y
      * agregarlos a la lista.
      *
-     * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+     * @author Santiago Ospina Osorio <santiago.m200@outlook.es>
      *
      * @since 1.00.000 2022-02-15
      */
     public static void createVehicles() {
+
+        Vehicle vehicle = new Vehicle();
 
         System.out.println("-----------------------------------------------------------");
         System.out.println("|                        ¡WELCOME!                        |");

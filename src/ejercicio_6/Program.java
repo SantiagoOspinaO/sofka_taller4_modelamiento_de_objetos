@@ -14,41 +14,41 @@ import java.util.Vector;
  *
  * @since 1.00.000 2022-02-15
  */
-public abstract class Program {
+public class Program {
 
     /**
      * Se crea el metodo equalNumber con el objetivo de identificar si se ingresan dos numeros iguales por consola utilizando
      * la clase Vector de Java.
      *
-     * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+     * @author Santiago Ospina Osorio <santiago.m200@outlook.es>
      *
      * @since 1.00.000 2022-02-15
      */
     public static void equalNumber(){
 
         Vector<Integer> vector = new Vector<>();
-        int auxiliary;
+        int number;
 
         try {
-
             do {
                 Scanner response = new Scanner(System.in);
                 System.out.print("Ingresa un numero: ");
-                auxiliary = response.nextInt();
+                number = response.nextInt();
 
-                if (!vector.contains(auxiliary)) {
-                    vector.add(auxiliary);
+                if (!vector.contains(number)) {
 
-                } else {
+                    vector.add(number);
+
+                } else if (number == vector.lastElement()){
+
                     System.out.println("¡Numero repetido!");
                     System.out.println(vector);
                     break;
                 }
 
-            } while (auxiliary != 0);
+            } while (number >= 0);
 
         } catch (InputMismatchException e) {
-
             System.out.println("Error!, ingreso un caracter inválido.");
         }
     }

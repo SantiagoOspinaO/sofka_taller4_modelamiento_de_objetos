@@ -5,7 +5,7 @@ package ejercicio_4;
  *
  * @version 1.00.000 2022-02-15
  *
- * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+ * @author Santiago Ospina Osorio <santiago.m200@outlook.es>
  *
  * @since 1.00.000 2022-02-15
  */
